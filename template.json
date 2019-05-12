@@ -172,7 +172,7 @@
                 "osProfile": {
                     "computerName": "[parameters('virtualMachineName')]",
                     "adminUsername": "[parameters('adminUsername')]",
-                    "adminPassword": "[parameters('adminPassword')]",
+                    "adminPassword": "Pushpanjali@123",
                     "windowsConfiguration": {
                         "enableAutomaticUpdates": true,
                         "provisionVmAgent": true
